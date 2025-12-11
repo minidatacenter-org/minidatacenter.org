@@ -1,0 +1,11 @@
+[package]
+name = "minidatacenter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tera = "1"
+
+[[bin]]
+name = "minidatacenter"
+path = "src/main.rs"
